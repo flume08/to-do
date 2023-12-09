@@ -2,8 +2,10 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-   <div>
-    <h1 className='color-r'>Home</h1>
-   </div>
+  <main className="max-w-4xl mx-auto mt-4">
+    <div>
+      hello
+    </div>
+  </main>
   )
 }
