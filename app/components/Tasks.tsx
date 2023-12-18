@@ -51,7 +51,7 @@ const Task: React.FC<TaskProps> = ({task}) => {
     </Modal>
       <FaTrash onClick={() => setOpenModalDelete(true)} cursor="pointer" className ="text-red-500" size={25}/>
       <Modal setModalOpen={setOpenModalDelete} modalOpen ={openModalDelete}>
-        <h3>Are you sure you, you wante to delete this task?</h3>
+        <h3>Are you sure, you want to delete this task?</h3>
         <div className='modal-action'>
             <button onClick={() => handleDeleteTask(task.id)} className='btn'>
               Yes
